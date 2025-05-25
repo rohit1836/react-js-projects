@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  height: 100vh;
+  width: 100vw;
+  background-color: #212121;
+  color: white;
+}
+
+.main {
+  text-align: center;
+  padding: 30px;
+}
+
+.input-fields {
+  margin-bottom: 20px;
+}
+
+.input-fields input {
+  padding: 10px;
+  font-size: 1.5rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  border-radius: 15px;
+  background-color: #9dabba;
+  color: #f6fcff;
+  border: none;
+}
+
+.input-fields input:focus {
+  border: none;
+}
+
+.input-fields button {
+  padding: 10px;
+  font-size: 1.5rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  border-radius: 15px;
+  background-color: #1362b1;
+  color: aliceblue;
+  border: none;
+  cursor: pointer;
+}
+
+.input-fields button:hover {
+  background-color: #1671cc;
+}
+
+.parameters * {
+  margin-bottom: 10px;
+}
+
+.parameters label {
+  font-size: 1.25rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.parameters input {
+  margin-right: 5px;
+}
+
+.parameters button {
+  padding: 10px;
+  font-size: 1.3rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-top: 10px;
+  border-radius: 7px;
+  background-color: #2568ab;
+  cursor: pointer;
+  border: none;
+}
+
+.parameters button:hover {
+  background-color: #2b7ac8;
+}
